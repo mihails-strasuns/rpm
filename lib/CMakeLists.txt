@@ -1,4 +1,4 @@
-add_library(librpm SHARED)
+add_library(librpm STATIC)
 set_target_properties(librpm PROPERTIES
 	VERSION ${RPM_LIBVERSION}
 	SOVERSION ${RPM_SOVERSION}
